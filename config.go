@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/BurntSushi/toml"
-	"github.com/hexops/zgo/internal/errors"
+	"github.com/timo-reymann/zgo/internal/errors"
 )
 
 type Config struct {

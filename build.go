@@ -14,7 +14,7 @@ import (
 	"strings"
 
 	"github.com/hexops/cmder"
-	"github.com/hexops/zgo/internal/errors"
+	"github.com/timo-reymann/zgo/internal/errors"
 	"github.com/mholt/archiver/v4"
 )
 
