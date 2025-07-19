@@ -392,15 +392,15 @@ func stripComponents(path string, n int) string {
 }
 
 func xcodeSDKDir(cfg Config) string {
-	d, _ := filepath.Abs(filepath.Join(cfg.Dir, "sdk-macos-12.0"))
+	d, _ := filepath.Abs(filepath.Join(cfg.Dir, "sdk-macos-13.3"))
 	return d
 }
 
 func ensureXCodeSDK(cfg Config) error {
-	sdkDir := filepath.Join(cfg.Dir, "sdk-macos-12.0") // so that it prints as relative
+	sdkDir := filepath.Join(cfg.Dir, "sdk-macos-13.3") // so that it prints as relative
 	return ensureCloned(
-		"https://github.com/hexops/sdk-macos-12.0",
-		"14613b4917c7059dad8f3789f55bb13a2548f83d",
+		"https://github.com/hexops/sdk-macos-13.3",
+		"1615cd09b3a42ae590e05e63251a0e9fbc47bab5",
 		sdkDir,
 	)
 }
