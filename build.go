@@ -163,6 +163,8 @@ func zigArch(goArch string) string {
 		return "x86_64"
 	case "arm64":
 		return "aarch64"
+	case "386":
+		return "386"
 	default:
 		panic("unsupported GOARCH")
 	}
