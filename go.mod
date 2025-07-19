@@ -1,4 +1,4 @@
-module github.com/hexops/zgo
+module github.com/timo-reymann/zgo
 
 go 1.19
 
